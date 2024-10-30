@@ -1,0 +1,15 @@
+{
+  "name": "clipboard-page",
+  "version": "1.0.0",
+  "description": "![Design preview for the Clipboard landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "b": "tailwindcss -i ./css/styles.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "sksksk",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}

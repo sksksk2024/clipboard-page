@@ -1,0 +1,99 @@
+/* Tailwind */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  animation: fade 2000ms forwards;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Variables */
+
+:root {
+  --font-size-2xs: 0.5rem;
+  --font-size-xs: 0.75rem;   /* Tailwind default */
+  --font-size-sm: 0.875rem;  /* Tailwind default */
+  --font-size-md: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 2rem;
+}
+
+/* Animations */
+@keyframes walk {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateX(100px);
+    opacity: 0.2;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Utilities */
+
+.container-xl {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.container-lg {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-md {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.container-sm {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.container-vsm {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.container-default {
+  max-width: auto;
+  margin: 0 auto;
+}
+
+.container-xs {
+  max-width: 250px;
+}
+
+.container-xs2 {
+  max-width: 200px;
+}
+
+/* Styles */
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url('./../images/bg-intro-desktop.png');
+  min-height: 100vh;
+}
