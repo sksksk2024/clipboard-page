@@ -22,74 +22,240 @@
   <title>Frontend Mentor | Clipboard landing page</title>
 
 </head>
-<body class="bg-blue">
+<body class="3xs:text-sm 2xs:text-md lg:text-lg flex flex-col justify-center items-center leading-7">
 
-  A history of everything you copy
+  <!-- Header -->
+  <header class="w-full">
+    
+    <img class="w-full h-full object-cover" id="img1" aria-hidden="true" src="./images/bg-header-desktop.png" alt="desktop">
 
-  Clipboard allows you to track and organize everything you 
-  copy. Instantly access your clipboard on all your devices.
+    <img class="hidden" id="img2" aria-hidden="true" src="./images/bg-header-mobile.png" alt="mobile">
 
-  Download for iOS
-  Download for Mac
+  </header>
 
-  Keep track of your snippets
+  <!-- Main -->
+  <main class="3xs:p-10P flex flex-col justify-center items-center text-center ">
 
-  Clipboard instantly stores any item you copy in the cloud, 
-  meaning you can access your snippets immediately on all your 
-  devices. Our Mac and iOS apps will help you organize everything.
+    <!-- Section 1 -->
+    <section class="flex flex-col justify-center items-center mb-128M max-w-container-sm">
 
-  Quick Search
+      <img class="relative bottom-80I" src="./images/logo.svg" alt="c brand">
 
-  Easily search your snippets by content, category, web address, application, and more.
+      <h1 class="3xs:text-xl 2xs:text-2xl lg:text-3xl font-bold text-dark-grayish-blue mb-32M">
+        A history of everything you copy
+      </h1>
 
-  iCloud Sync
+      <p class="text-grayish-blue mb-32M">
+        Clipboard allows you to track and organize everything you 
+        copy. Instantly access your clipboard on all your devices.
+      </p>
 
-  Instantly saves and syncs snippets across all your devices.
+      <div class="flex justify-center items-center 3xs:gap-4 sm:gap-4 3xs:flex-col sm:flex-row">
 
-  Complete History
+        <button class="3xs:w-256W 2xs:w-288W px-24P py-10P bg-strong-cyan text-white font-semibold rounded-50BR shadow-custom-dark-cyan">
+          Download for iOS
+        </button>
+        
+        <button class="3xs:w-256W 2xs:w-288W px-24P py-10P bg-light-blue text-white font-semibold rounded-50BR shadow-custom-dark-light-blue">
+          Download for Mac
+        </button>
 
-  Retrieve any snippets from the first moment you started using the app.
+      </div>
 
-  Access Clipboard anywhere
+    </section>
 
-  Whether you’re on the go, or at your computer, you can access all your Clipboard 
-  snippets in a few simple clicks.
+    <!-- Section 2 -->
+    <section class="mb-128M display: flex 3xs:flex-col justify-center items-center p-16P">
 
-  Supercharge your workflow
+      <h2 class="3xs:text-lg 2xs:text-xl lg:text-3xl font-semibold text-dark-grayish-blue mb-32M max-w-container-sm">
+        Keep track of your snippets
+      </h2>
 
-  We’ve got the tools to boost your productivity.
+      <p class="text-grayish-blue mb-64M max-w-container-sm">
+        Clipboard instantly stores any item you copy in the cloud, 
+        meaning you can access your snippets immediately on all your 
+        devices. Our Mac and iOS apps will help you organize everything.
+      </p>
 
-  Create blacklists
+      <div class="max-w-container-xl flex 3xs:flex-col xl:flex-row justify-center items-center 3xs:text-center xl:text-start 3xs:gap-0 xl:gap-24 3xs:static xl:relative xl:right-64I">
 
-  Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
+        <img class="3xs:mb-48M " src="./images/image-computer.png" alt="computer">
 
-  Plain text snippets
+        <aside>
 
-  Remove unwanted formatting from copied text for a consistent look.
+          <h3 class="3xs:text-lg 2xs:text-xl text-dark-grayish-blue font-semibold mb-16M">
+            Quick Search
+          </h3>
 
-  Sneak preview
+          <p class="text-grayish-blue mb-32M">
+            Easily search your snippets by content, category, web address, application, and more.
+          </p>
 
-  Quick preview of all snippets on your Clipboard for easy access.
+          <h3 class="3xs:text-lg 2xs:text-xl text-dark-grayish-blue font-semibold mb-16M">
+            iCloud Sync
+          </h3>
 
-  Clipboard for iOS and Mac OS
+          <p class="text-grayish-blue mb-32M">
+            Instantly saves and syncs snippets across all your devices.
+          </p>
 
-  Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
-  and you’re ready to start adding to your clipboard.
+          <h3 class="3xs:text-lg 2xs:text-xl text-dark-grayish-blue font-semibold mb-16M">
+            Complete History
+          </h3>
 
-  Download for iOS
-  Download for Mac
+          <p class="text-grayish-blue mb-32M">
+            Retrieve any snippets from the first moment you started using the app.
+          </p>
 
-  FAQs
-  Contact Us
-  Privacy Policy
-  Press Kit
-  Install Guide
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+        </aside>
+
+      </div>
+
+    </section>
+
+    <!-- Section 3 -->
+    <section class="mb-128M p-16P max-w-container-sm">
+
+      <h2 class="3xs:text-lg 2xs:text-xl lg:text-2xl font-semibold text-dark-grayish-blue mb-32M">
+        Access Clipboard anywhere
+      </h2>
+
+      <p class="text-grayish-blue mb-32M">
+        Whether you’re on the go, or at your computer, you can access all your Clipboard 
+        snippets in a few simple clicks.
+      </p>
+
+      <img src="./images/image-devices.png" alt="devices">
+
+    </section>
+
+    <!-- Section 4 -->
+    <section class="mb-128M p-16P 3xs:max-w-container-sm lg:max-w-container-xl">
+
+      <h2 class="3xs:text-lg 2xs:text-xl lg:text-2xl font-semibold text-dark-grayish-blue mb-32M">
+        Supercharge your workflow
+      </h2>
+
+      <p class="text-grayish-blue mb-32M">
+        We’ve got the tools to boost your productivity.
+      </p>
+
+      <!-- Qualities -->
+      <div class="flex 3xs:flex-col lg:flex-row justify-center items-center 3xs:gap-0 lg:gap-10">
+
+        <div class="flex flex-col justify-center items-center gap-4 max-w-container-xs">
+          <img class="mt-48M mb-16M" src="./images/icon-blacklist.svg" alt="blacklists">
+          
+          <h3 class="3xs:text-md 2xs:text-lg font-semibold text-dark-grayish-blue">Create blacklists</h3>
+
+          <p class="text-grayish-blue mb-32M">
+            Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
+          </p>
+        </div>
+        
+        <div class="flex flex-col justify-center items-center gap-4 max-w-container-xs">
+          <img class="mt-48M mb-16M" src="./images/icon-text.svg" alt="text snippets">
+          
+          <h3 class="3xs:text-md 2xs:text-lg font-semibold text-dark-grayish-blue">
+            Plain text snippets
+          </h3>
+
+          <p class="text-grayish-blue mb-32M">
+            Remove unwanted formatting from copied text for a consistent look.
+          </p>
+        </div>
+        
+        <div class="flex flex-col justify-center items-center gap-4 max-w-container-xs">
+          <img class="mt-48M mb-16M" src="./images/icon-preview.svg" alt="preview">
+          
+          <h3 class="3xs:text-md 2xs:text-lg font-semibold text-dark-grayish-blue">
+            Sneak preview
+          </h3>
+
+
+          <p class="text-grayish-blue mb-32M">
+            Quick preview of all snippets on your Clipboard for easy access.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Brands -->
+      <div class="flex 3xs:flex-col lg:flex-row 3xs:gap-20 lg:gap-16 justify-center items-center w-1/2 mx-auto mt-64M">
+
+        <img src="./images/logo-google.png" alt="google">
+        <img src="./images/logo-ibm.png" alt="ibm">
+        <img src="./images/logo-microsoft.png" alt="microsoft">
+        <img src="./images/logo-hp.png" alt="hp">
+        <img src="./images/logo-vector-graphics.png" alt="vector graphics">
+
+      </div>
+
+    </section>
+
+    <!-- Section 5 -->
+    <section class="mb-128M p-16P max-w-container-sm">
+
+      <h2 class="3xs:text-lg 2xs:text-xl lg:text-2xl font-semibold text-dark-grayish-blue mb-32M">
+        Clipboard for iOS and Mac OS
+      </h2>
+
+      <p class="text-grayish-blue mb-32M">
+        Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
+        and you’re ready to start adding to your clipboard.
+      </p>
+
+      <div class="flex justify-center items-center 3xs:gap-4 sm:gap-4 3xs:flex-col sm:flex-row">
+
+        <button class="3xs:w-256W 2xs:w-288W px-24P py-10P bg-strong-cyan text-white font-semibold rounded-50BR shadow-custom-dark-cyan">
+          Download for iOS
+        </button>
+        
+        <button class="3xs:w-256W 2xs:w-288W px-24P py-10P bg-light-blue text-white font-semibold rounded-50BR shadow-custom-dark-light-blue">
+          Download for Mac
+        </button>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="px-10P pt-10P pb-8P bg-gray w-full w-full 3xs:flex 3xs:justify-center 3xs:flex-col 3xs:items-center xl:flex-row xl:justify-between 3xs:text-start">
+
+    <img class="mx-auto my-32M" src="./images/logo.svg" alt="c brand">
+
+
+    <div class="flex 3xs:flex-col xl:flex-row justify-center items-center 3xs:gap-4 xl:gap-10 mb-32M">
+
+      <div class="flex 3xs:flex-col 3xs:items-center xl:items-start justify-center text-md text-dark-grayish-blue gap-4">
+        <a href="#">FAQs</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="flex 3xs:flex-col 3xs:items-center xl:items-start justify-center text-md text-dark-grayish-blue gap-4">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Press Kit</a>
+      </div>
+
+      <div class="flex 3xs:flex-col 3xs:items-center xl:items-start justify-center text-md text-dark-grayish-blue gap-4">
+        <a href="#">Install Guide</a>
+        <a aria-hidden="true" class="text-gray pointer-events-none focus:outline-none bg-inherit focus:bg-inherit no-underline hidden" href="#">Install Guide</a>
+        <a aria-hidden="true" class="text-gray pointer-events-none select-none" oncontextmenu="return false;" href="#">Install Guide</a>
+      </div>
+    </div>
+    
+    <div class="flex flex-row justify-center items-center gap-8 mx-auto mb-32M">
+
+      <img src="./images/icon-facebook.svg" alt="facebook">
+      <img src="./images/icon-twitter.svg" alt="twitter">
+      <img src="./images/icon-instagram.svg" alt="instagram">
+
+    </div>
+
   </footer>
+
+  <script src="./js/script.js"></script>
 </body>
 </html>

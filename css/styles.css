@@ -17,11 +17,13 @@
 
 img {
   max-width: 100%;
+  user-select: none;
 }
 
 /* Variables */
 
 :root {
+  /* Font Size */
   --font-size-2xs: 0.5rem;
   --font-size-xs: 0.75rem;   /* Tailwind default */
   --font-size-sm: 0.875rem;  /* Tailwind default */
@@ -29,6 +31,15 @@ img {
   --font-size-lg: 1.25rem;
   --font-size-xl: 1.5rem;
   --font-size-2xl: 2rem;
+  --font-size-3xl: 3rem;
+  --font-size-4xl: 4rem;
+
+  /* Colors */
+  --Strong-Cyan: hsl(171, 66%, 44%);
+  --Light-Blue: hsl(233, 100%, 69%);
+  --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+  --Grayish-Blue: hsl(201, 11%, 66%);
+  --light-gray: hsl(0, 0%, 97%);
 }
 
 /* Animations */
@@ -51,35 +62,25 @@ img {
 
 /* Utilities */
 
-.container-xl {
+/* .container-xl {
   max-width: 1500px;
-  margin: 0 auto;
 }
 
 .container-lg {
   max-width: 1200px;
-  margin: 0 auto;
 }
 
 .container-md {
   max-width: 1100px;
-  margin: 0 auto;
 }
 
 .container-sm {
   max-width: 900px;
-  margin: 0 auto;
 }
 
 .container-vsm {
   max-width: 500px;
-  margin: 0 auto;
   margin-bottom: 2rem;
-}
-
-.container-default {
-  max-width: auto;
-  margin: 0 auto;
 }
 
 .container-xs {
@@ -88,12 +89,16 @@ img {
 
 .container-xs2 {
   max-width: 200px;
-}
+} */
 
 /* Styles */
 html,
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Bai Jamjuree', sans-serif;
   background: url('./../images/bg-intro-desktop.png');
   min-height: 100vh;
+}
+
+.hidden {
+  display: none;
 }
